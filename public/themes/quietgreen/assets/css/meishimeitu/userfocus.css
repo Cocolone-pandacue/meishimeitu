@@ -1,0 +1,601 @@
+/*
+* @Author: Marte
+* @Date:   2018-12-18 10:57:52
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-12-18 11:09:21
+*/
+
+@keyframes bqxuanting
+
+{
+    from 
+    {
+        background:rgba(255,255,255,1);
+        color:rgba(51,51,51,1);
+    }
+    to 
+    {
+        background:rgba(76,76,76,1);
+        color:rgba(255,255,255,1);
+    }
+}
+
+@-webkit-keyframes bqxuanting
+
+{
+    from 
+    {
+        background:rgba(255,255,255,1);
+        color:rgba(51,51,51,1);
+    }
+    to 
+    {
+        background:rgba(76,76,76,1);
+        color:rgba(255,255,255,1);
+    }
+}
+
+.myfocu
+
+{
+    width: 820px;
+    height: auto;
+}
+
+.myfocu_fenlei
+
+{
+    width: 100%;
+    height: auto;
+    padding: 30px 30px 0 30px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.myfocu_biaoti
+
+{
+    width: 100%;
+    height: 45px;
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.myfocu_biaoti_photo
+
+{
+    float: left;
+    display:block;
+    padding-top: 5px;
+    width: 21px;
+    height: 23px;
+}
+
+.myfocu_biaoti_text
+
+{
+    float: left;
+    display:block;
+    font-size: 16px;
+    color: #1c1d25;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.myfocu_zr
+
+{
+    width: 100%;
+    height: 75px;
+    display: block;
+}
+
+.myfocu_zr>a
+
+{
+    display: block;
+    float: left;
+    width: 64px;
+    height: 75px;
+    line-height: 75px;
+    font-family:MicrosoftYaHei;
+    font-size:16px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.myfocu_zr>a:hover
+
+{
+    font-weight: 600;
+    color:rgba(51, 51, 51, 1);
+}
+
+.myfocu_zr_gzdr
+
+{
+    color: rgba(136, 136, 136, 1);
+    font-weight: 400;
+}
+
+.daohang_dianji
+
+{
+    border-bottom: 3px solid #235AA6;
+    color:rgba(51, 51, 51, 1);
+    font-weight: 600;
+}
+
+/* 有作品 作品动态 */
+
+.myfocu_photo
+
+{
+    width: 820px;
+    height: auto;
+    padding: 0 30px;
+    background: #fff;
+}
+
+.myfocu_photo_biaoti
+
+{
+    width: 100%;
+    font-size: 16px;
+    color: #1c1d25;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.myfocu_photo_box
+
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.myfocu_photo_box>.myfocu_photo_littlebox:nth-child(3n+1)
+
+{
+    margin-right: 20px;
+}
+
+.myfocu_photo_box>.myfocu_photo_littlebox:nth-child(3n)
+
+{
+    margin-left: 20px;
+}
+
+.myfocu_photo_littlebox
+
+{
+    width: 240px;
+    height: auto;
+    border-radius: 5px !important;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 30px;
+}
+
+.myfocu_photo_littlebox_photobox
+
+{
+    width: 100%;
+    height: 178px;
+}
+
+.myfocu_photo_littlebox_photobox>img
+
+{
+    width: 100%;
+    height: 100%;
+}
+
+.myfocu_photo_littlebox_text
+
+{
+    padding-top: 10px;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+}
+
+.myfocu_photo_littlebox_atext
+
+{
+    font-size: 14px;
+    color: #888888;
+    text-align: center;
+}
+
+.myfocu_photo_littlebox_icon
+
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.myfocu_photo_littlebox_icon img
+
+{
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.myfocu_photo_littlebox_icon>span
+
+{
+    font-size: 12px;
+    color: #333333;
+}
+
+.span_duiqi
+
+{
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.myfocu_photo_littlebox_icon>span:nth-child(2)
+
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.myfocu_photo_littlebox_zuidibu
+
+{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #888888;
+    padding: 0 10px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.myfocu_photo_littlebox_zuidibu_bj
+
+{
+    float: left;
+    width: 24px;
+    height: 24px;
+    /* margin-top: 10px; */
+}
+
+.myfocu_photo_littlebox_zuidibu_bj>img
+
+{
+    width: 100%;
+    height: 100%;;
+}
+
+.myfocu_photo_littlebox_zuidibu_sc
+
+{
+    float: left;
+    width: 113px;
+    overflow: hidden;
+    padding-left: 10px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.myfocu_photo_littlebox_zuidibu_djs
+
+{
+    float: right;
+    font-weight: 500;
+}
+
+/* 有作品 作品动态结束*/
+
+/* 有作品 关注的人 */
+.foucusman_photo
+
+{
+    width: 820px;
+    height: auto;
+    padding: 0 30px;
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.foucusman_photo_biaoti
+
+{
+    width: 100%;
+    font-size: 16px;
+    color: #1c1d25;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.foucusman_photo_box
+
+{
+    width: 760px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 20px 12px;
+    border: 1px solid #b8b8b8;
+    margin-bottom: 20px;
+}
+
+.foucusman_photo_littlebox
+
+{
+    float: left;
+    width: 230px;
+    height: 100%;
+    border-right: 1px solid #b8b8b8;
+}
+
+.foucusman_photo_littlebox_photobox
+
+{
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-top: 46px;
+}
+
+.foucusman_photo_littlebox_photobox>a>img
+
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.foucusman_photo_littlebox_photobox>img
+
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.foucusman_photo_text
+
+{
+    float: left;
+    width: 145px;
+    height: 71px;
+    margin-top: 38px;
+    margin-left: 16px;
+}
+
+.sjsmc
+
+{
+    width:120px;
+    overflow: hidden;
+    height:16px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height: 16px;
+}
+
+.dzzc
+
+{
+    display: flex;
+    width:auto;
+    height:17px;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(136,136,136,1);
+    line-height: 17px;
+    margin-top: 12px;
+}
+
+.zofs
+
+{
+    display: flex;
+    width:126px;
+    height:17px;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height: 17px;
+    margin-top: 9px;
+}
+
+.gz
+
+{
+    float: left;
+    width:80px;
+    height:30px;
+    border:1px solid rgba(230,230,230,1);
+    border-radius:5px;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    text-align: center;
+    line-height: 30px;
+    margin-left: 39px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.algz
+
+{
+    background: #f7f9fa;
+    color: #cdcfd1;
+}
+
+.gz_qx
+
+{
+    position: absolute !important;
+    top: 20%;
+    left: 20%;
+    width: 220px;
+    height: 140px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    line-height: 0px;
+    padding: 0px !important;
+}
+
+.gz_qx_ms
+
+{
+    margin-top: 50px;
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.gz_qx_qdqx
+
+{
+    width: 180px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.gz_qx_qdqx_qd
+
+{
+    float: left;
+    width: 80px;
+    height: 24px;
+    color:rgba(51,51,51,1);
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    line-height: 22px;
+    border-radius: 5px;
+}
+
+.gz_qx_qdqx_qd:hover
+
+{
+    animation:bqxuanting 0.2s ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count:1;
+    -webkit-animation:bqxuanting 0.2s ease;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count:1;
+}
+
+.gz_qx_qdqx_qx
+
+{
+    float: right;
+    width: 80px;
+    height: 24px;
+    color:rgba(51,51,51,1);
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    line-height: 22px;
+    border-radius: 5px;
+}
+
+.gz_qx_qdqx_qx:hover
+
+{
+    animation:bqxuanting 0.2s ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count:1;
+    -webkit-animation:bqxuanting 0.2s ease;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count:1;
+}
+
+.gz_qx_gb
+
+{
+    width: 13px;
+    height: 13px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.gb>img
+
+{
+    width: 100%;
+    height: 100%;
+}
+
+.sx
+
+{
+    width: 2px;
+    height: 17px;
+    background: rgba(136,136,136,1);
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.foucusman_photo_png
+
+{
+    width: 215px;
+    height: 160px;
+    float: left;
+    margin-left: 21px;
+}
+
+.foucusman_photo_pngone
+
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foucusman_photo_gd
+
+{
+    width: 14px;
+    height: 50px;
+    margin-left: 22px;
+}
+
+.foucusman_photo_gd>a>img
+
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* 有作品 关注的人结束*/
+
+.no_works
+
+{
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}

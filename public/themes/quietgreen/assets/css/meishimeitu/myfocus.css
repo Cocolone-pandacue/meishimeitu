@@ -1,0 +1,471 @@
+/*
+* @Author: Marte
+* @Date:   2018-12-18 11:25:22
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-12-18 11:26:32
+*/
+/* .myfocus_head_wrap{
+    background-color: #fff;
+    padding: 20px 41px 40px;
+    margin-bottom: 30px;
+}
+
+p.myfocus_head {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.myfocus_head >span{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 3px solid #235aa6;
+}
+
+.row_title{
+    font-size:16px;
+    color: #5f6068;
+}
+
+.all_title{
+    font-size: 16px;
+    color: #e2823a !important;
+}
+
+.userfocus_content{
+    padding: 20px 41px 40px;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    height: 260px;
+    text-align: center;
+} */
+
+
+
+.myfocus
+
+{
+    width: 820px;
+    height: auto;
+}
+
+.myfocus_fenlei
+
+{
+    width: 100%;
+    height: auto;
+    padding: 23px 30px 0 30px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+.myfocus_biaoti
+
+{
+    width: 100%;
+    height: 45px;
+    display: block;
+}
+
+.myfocus_biaoti_photo
+
+{
+    float: left;
+    display:block;
+    width: 23px;
+    height: 30px;
+}
+
+.myfocus_biaoti_text
+
+{
+    float: left;
+    display:block;
+    font-size: 16px;
+    color: #1c1d25;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.myfocus_zr
+
+{
+    width: 100%;
+    height: 75px;
+    display: block;
+}
+
+.myfocus_zr_zpdt
+
+{
+    display: block;
+    float: left;
+    width: 64px;
+    height: 75px;
+    line-height: 75px;
+    border-bottom: 3px solid #235AA6;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+
+.myfocus_zr_gzdr
+
+{
+    display: block;
+    float: left;
+    width: 64px;
+    height: 75px;
+    line-height: 75px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    margin-left: 20px;
+}
+
+/* 有作品 作品动态 */
+
+.myfocus_photo
+
+{
+    width: 820px;
+    height: auto;
+    padding: 0 30px;
+    background: #fff;
+}
+
+.myfocus_photo_biaoti
+
+{
+    width: 100%;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.myfocus_photo_box
+
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.myfocus_photo_box>.myfocus_photo_littlebox:nth-child(3n+1)
+
+{
+    margin-right: 20px;
+}
+
+.myfocus_photo_box>.myfocus_photo_littlebox:nth-child(3n)
+
+{
+    margin-left: 20px;
+}
+
+.myfocus_photo_littlebox
+
+{
+    width: 240px;
+    height: auto;
+    border-radius: 5px !important;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 30px;
+}
+
+.myfocus_photo_littlebox_photobox
+
+{
+    width: 100%;
+    height: 178px;
+}
+
+.myfocus_photo_littlebox_photobox>img
+
+{
+    width: 100%;
+    height: 100%;
+}
+
+.myfocus_photo_littlebox_text
+
+{
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+}
+
+.myfocus_photo_littlebox_atext
+
+{
+    font-size: 14px;
+    color: #888888;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.myfocus_photo_littlebox_icon
+
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.myfocus_photo_littlebox_icon img
+
+{
+    margin-right: 5px;
+}
+
+.myfocus_photo_littlebox_icon>span
+
+{
+    font-size: 12px;
+    color: #333333;
+}
+
+.myfocus_photo_littlebox_icon>span:nth-child(2)
+
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.myfocus_photo_littlebox_zuidibu
+
+{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #888888;
+    padding: 0 10px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.myfocus_photo_littlebox_zuidibu_bj
+
+{
+    float: left;
+    width: 24px;
+    height: 24px;
+}
+
+.myfocus_photo_littlebox_zuidibu_bj>img
+
+{
+    width: 100%;
+    height: 100%;;
+}
+
+.myfocus_photo_littlebox_zuidibu_sc
+
+{
+    float: left;
+    padding-left: 10px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.myfocus_photo_littlebox_zuidibu_djs
+
+{
+    float: right;
+    font-weight: 500;
+}
+
+/* 有作品 作品动态结束*/
+
+/* 有作品 关注的人 */
+.foucusman_photo
+
+{
+    width: 820px;
+    height: auto;
+    padding: 0 30px;
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.foucusman_photo_biaoti
+
+{
+    width: 100%;
+    font-size: 16px;
+    color: #1c1d25;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.foucusman_photo_box
+
+{
+    width: 760px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 20px 12px;
+    border: 1px solid #b8b8b8;
+}
+
+.foucusman_photo_littlebox
+
+{
+    float: left;
+    width: 230px;
+    height: 100%;
+    border-right: 1px solid #b8b8b8;
+}
+
+.foucusman_photo_littlebox_photobox
+
+{
+    float: left;
+    width: 64px;
+    height: 64px;
+    margin-top: 46px;
+}
+
+.foucusman_photo_littlebox_photobox>img
+
+{
+    width: 100%;
+    height: 100%;
+}
+
+.foucusman_photo_text
+
+{
+    float: left;
+    width: 145px;
+    height: 71px;
+    margin-top: 38px;
+    margin-left: 18px;
+}
+
+.sjsmc
+
+{
+    width:80px;
+    height:16px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height: 16px;
+}
+
+.dzzc
+
+{
+    display: flex;
+    width:110px;
+    height:17px;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(136,136,136,1);
+    line-height: 17px;
+    margin-top: 12px;
+}
+
+.zofs
+
+{
+    display: flex;
+    width:126px;
+    height:17px;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height: 17px;
+    margin-top: 9px;
+}
+
+.gz
+
+{
+    float: left;
+    width:80px;
+    height:30px;
+    border:1px solid rgba(230,230,230,1);
+    border-radius:5px;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    text-align: center;
+    line-height: 30px;
+    margin-left: 39px;
+    margin-top: 15px;
+}
+
+.sx
+
+{
+    width: 2px;
+    height: 17px;
+    background: rgba(136,136,136,1);
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.foucusman_photo_png
+
+{
+    width: 215px;
+    height: 100%;
+    float: left;
+    margin-left: 21px;
+}
+
+.foucusman_photo_pngone
+
+{
+    width: 100%;
+    height: 100%;
+}
+
+.foucusman_photo_gd
+
+{
+    width: 14px;
+    height: 50px;
+    margin-left: 22px;
+}
+
+.foucusman_photo_gd>img
+
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* 有作品 关注的人结束*/
+
+.no_works
+
+{
+    margin: 0 auto;
+    margin-top: 10px;
+}

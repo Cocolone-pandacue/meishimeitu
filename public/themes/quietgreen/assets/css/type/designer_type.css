@@ -1,0 +1,261 @@
+/*
+* @Author: Marte
+* @Date:   2018-10-17 15:19:30
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-11-28 10:23:16
+*/
+.select_style,.select_color{
+    width: 538px;
+    margin: 0 auto;
+    height: auto;
+    padding-left: 0;
+}
+
+.color_selected{
+    z-index: 999;
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    top: 55px;
+}
+
+input.color_input {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 86px;
+    height: 80px;
+    border: 0;
+    opacity: 0;
+}
+
+.select_style>ul{
+    width: 100%;
+    margin-top: 5px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.select_style>ul>li{
+    float: left;
+    width: 33%;
+}
+
+.select_style>ul>li:nth-child(1), .select_style>ul>li:nth-child(3) {
+    width: 15%;
+    height: 30px;
+    line-height: 50px;
+}
+
+.select_style>ul>li:nth-child(3) {
+    text-align: right;
+}
+
+li.select_bar {
+    margin-top: 22px;
+}
+
+.select_bar>img{
+    float: left;
+}
+
+.bar{
+    display: inline-block;
+    width: 45%;
+    height: 5px;
+    margin-top: 3px;
+    background: url(../img/步骤进度条底.png) no-repeat;
+}
+
+.bar1{
+    display: inline-block;
+    width: 45%;
+    height: 5px;
+    margin-top: 3px;
+    background: url(../img/选择条.png) no-repeat;
+}
+
+.btn1{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../img/风格按钮1.png) no-repeat;
+    cursor: pointer;
+}
+
+.btn2{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../img/风格按钮2.png) no-repeat;
+    cursor: pointer;
+}
+/* 风格 */
+.wrapselect{
+    width: 90%;
+    height: 10px;
+    margin: 0 auto;
+    background-color:#f4f4f4;
+}
+
+.wrapselect>div{
+    float: left;
+    height: 10px;
+    position: relative;
+}
+
+.leftselect{
+    width: 50%;
+}
+.centerselect {
+    width: 50%;
+}
+
+.rightselect {
+    width: 0%;
+}
+
+.leftselect>span,.centerselect>span,.rightselect>span{
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+    top: -3px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px #ccc inset;
+    cursor: pointer;
+}
+
+.leftselect>input,.centerselect>input,.rightselect>input{
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+    top: -3px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px #ccc inset;
+    cursor: pointer;
+    outline: none;
+    color: transparent;
+}
+
+.centerspan,.centerspan1,.centerspan2,.centerspan3{
+    background-color: #f4f4f4;
+    z-index: 99;
+}
+
+.centerspanbg,.centerspanbg1,.centerspanbg2,.centerspanbg3 {
+    background: #647c85;
+    left: -10px;
+    z-index: 999;
+   }
+
+.centerselect>div,.rightselect>div{
+    float: left;
+    display: inline-block;
+    width: 0%;
+    height: 10px;
+    background-color: #647c85;
+}
+
+.leftselect>div{
+    float: left;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background-color: #647c85;
+}
+
+.rightselect{
+    background-color: #fff;
+}
+
+.checkRong {
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    top: 30px;
+    height: 15px !important;
+    line-height: 15px !important;
+    color: red !important;
+    font-size: 12px !important;
+}
+
+.leftselect {
+    background: #647c85;
+}
+
+.jydiv1,.gddiv1,.nvxdiv1,.cxdiv1 {
+    width: 100% ;
+    background: #f4f4f4 !important;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+}
+
+.jydiv{
+    width: 100% !important;
+    background-color: #647c85 !important;
+}
+
+.cls_input_span1 {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #ccc;
+    margin-left: 207px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.cls_input_span1>input{
+    border-color: transparent;
+}
+
+/* 颜色 */
+.select_color>li{
+    float: left;
+    width: 80px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1% 0;
+    position: relative;
+    margin-left: 8px;
+}
+
+.select_color>li>p{
+    line-height: 30px;
+    height: 30px;
+}
+
+.select_color>li>img{
+    cursor: pointer;
+    padding: 2px 2px;
+    border: 1px solid transparent;
+}
+
+.selected_bg{
+    background: url(../../images/type/色调选择.png)  no-repeat;
+}
+
+.selected_border{
+    border: 1px solid #1197ec;
+}
+
+.estop_img {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    background-color: #000;
+    opacity: 0.6;
+    top: 6px;
+    left: 0px;
+}

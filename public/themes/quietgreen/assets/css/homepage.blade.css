@@ -1,0 +1,254 @@
+/*
+* @Author: Marte
+* @Date:   2018-07-05 10:52:43
+* @Last Modified by:   Marte
+* @Last Modified time: 2019-01-22 10:23:17
+*/
+.hide{
+    display: none;
+}
+
+.block{
+    display: block;
+}
+/* TOP榜合作伙伴 */
+ul.cooperative_partner_wrap {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+ul.cooperative_partner_wrap>li {
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: #fff;
+    box-shadow: 0 0 17px -3px #9d9d9d;
+    position: relative;
+}
+
+.tra_div{
+    position: absolute;
+    top: 0;
+    width: 0px;
+    height: 200px;
+    background-color: #fee0db;
+    transition:width 0.5s;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.cooperative_partner_wrap>li:hover .tra_div{
+    width: 300px;
+}
+
+.cooperative_partner_wrap>li:hover .scale_img{
+    transform: scale(1.1);
+    transition-delay: .1s;
+    transition: all 0.6s
+}
+
+.case {
+    padding-bottom: 80px;
+}
+
+ul.cooperative_partner_wrap>li>p>img {
+    border-radius: 50%;
+    box-shadow: 0 0 15px 2px #9d9d9d;
+    transform: scale(1);
+    transition-delay: .3s;
+    transition: all 0.6s
+}
+
+img.scale_img {
+    position: absolute;
+    top: 30px;
+    left: 96px;
+    z-index: 3;
+    border-radius: 50%;
+}
+
+span.au_name {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 30px;
+    width: 300px;
+    text-align: center;
+    z-index: 3;
+}
+
+span.occupation {
+    display: block;
+    width: 300px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    text-indent: 30px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
+/* TOP榜合作伙伴结束 */
+/* 合作单位 */
+ul.cooperate_wrap {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+ul.cooperate_wrap>li {
+    width: 299px;
+    height: 124px;
+    float: left;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+ul.cooperate_wrap>li:nth-child(4n+0)
+{
+    border-right: 0px;
+}
+
+ul.cooperate_wrap>li:nth-child(1),ul.cooperate_wrap>li:nth-child(2),ul.cooperate_wrap>li:nth-child(3),ul.cooperate_wrap>li:nth-child(4){
+    border-top: 0px;
+}
+
+ul.cooperate_wrap>li>img{
+    width: 100%;
+    height: 100%;
+}
+/* 合作单位结束 */
+
+
+/* 案例分享水波纹 */
+.waves{
+    position:relative;
+    cursor:pointer;
+    display:inline-block;
+    overflow:hidden;
+    text-align: center;
+    -webkit-tap-highlight-color:transparent;
+    z-index:1;
+}
+.waves .waves-animation{
+    position:absolute;
+    border-radius:50%;
+    width:25px;
+    height:25px;
+    opacity:0;
+    background:rgba(255,255,255,0.3);
+    transition:all 0.7s ease-out;
+    transition-property:transform, opacity, -webkit-transform;
+    -webkit-transform:scale(0);
+    transform:scale(0);
+    pointer-events:none;
+}
+
+/* 图片 */
+.imgHover{
+    position: absolute;
+    transform: translate(0px,0px);
+    /* transition: transform 0.5s; */
+    z-index: 1;
+}
+
+/* 左边 */
+.Blue_Square_a{
+    top: 315px;
+    left: 240px;
+}
+
+.cyan_fork_a{
+    top: 680px;
+    left: 600px;
+}
+
+.Orange_circle_a{
+    top: 1100px;
+    left: 320px;
+}
+
+.Green_triangle_a{
+    top: 1550px;
+    left: 140px;
+}
+
+.Blue_Square_b{
+    top: 2000px;
+    left: 380px;
+}
+
+.cyan_fork_b{
+    top: 2310px;
+    left: 600px;
+}
+
+.Orange_circle_b{
+    top: 2700px;
+    left: 200px;
+}
+
+.Green_triangle_b{
+    top: 3050px;
+    left: 380px;
+}
+
+.Blue_Square_c{
+    top: 3450px;
+    left: 100px;
+}
+
+
+/* 右边 */
+.Orange_triangle_a{
+    top: 495px;
+    right: 350px;
+}
+
+.Green_Square_a{
+    top: 800px;
+    right: 100px;
+}
+
+.Cyan_round_a{
+    top: 1100px;
+    right: 500px;
+}
+
+.Green_fork_a{
+    top: 1400px;
+    right: 200px;
+}
+
+.Orange_triangle_b{
+    top: 1705px;
+    right: 350px;
+}
+
+.Green_Square_b{
+    top: 2000px;
+    right: 160px;
+}
+
+.Cyan_round_b{
+    top: 2400px;
+    right: 500px;
+}
+
+.Green_fork_b{
+    top: 2900px;
+    right: 200px;
+}
+
+.Orange_triangle_c{
+    top: 3300px;
+    right: 350px;
+}

@@ -1,0 +1,998 @@
+/*
+* @Author: Marte
+* @Date:   2018-12-19 14:50:10
+ * @Last Modified by:   Marte
+ * @Last Modified time: 2019-02-25 18:02:57
+*/
+.navbar-header {
+    height: 100px;
+}
+
+.artificial_intelligence_wrap{
+    width: 100%;
+    margin: 0 auto;
+    background: url(../../images/meishimeitu/artificial_intelligence/artificial_intelligence_bg.png) no-repeat;
+    text-align: center;
+    z-index: 10;
+    background-size: cover;
+    min-width: 1903px;
+    height: 1000px;
+}
+
+.canvas_div {
+    position: relative;
+    z-index: 999;
+}
+
+.ai_home{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.art_int_img{
+    display: inline-block;
+    width: 321px;
+    height: 394px;
+    background: url(../../images/meishimeitu/artificial_intelligence/LOGO.png) no-repeat;
+    margin-top: 270px;
+}
+
+
+.ai_home>span{
+    display: inline-block;
+    position: absolute;
+}
+
+.word_tip{
+    width: 304px;
+    height: 166px;
+    line-height: 120px;
+    text-align: center;
+    font-size: 35px;
+    color: #1c1d25;
+    background: url(../../images/meishimeitu/artificial_intelligence/dialogue.png) no-repeat;
+    top: 116px;
+    left: 1035px;
+}
+
+.ailogo,.aiposter,.aitypesetting{
+    width: 222px;
+    height: 222px;
+}
+
+.ailogo{
+    background: url(../../images/meishimeitu/artificial_intelligence/ailogo.png) no-repeat;
+    top: 600px;
+    left: 550px;
+}
+
+.ailogo:hover{
+    background: url(../../images/meishimeitu/artificial_intelligence/ailogo_hover.png) no-repeat;
+}
+
+.aiposter{
+    background: url(../../images/meishimeitu/artificial_intelligence/aiposter.png) no-repeat;
+    top: 683px;
+    left: 855px;
+}
+
+.aiposter:hover{
+    background: url(../../images/meishimeitu/artificial_intelligence/aiposter_hover.png) no-repeat;
+}
+
+.aitypesetting{
+    background: url(../../images/meishimeitu/artificial_intelligence/aitypesetting.png) no-repeat;
+    top: 600px;
+    left: 1150px;
+}
+
+.aitypesetting:hover{
+    background: url(../../images/meishimeitu/artificial_intelligence/aitypesetting_hover.png) no-repeat;
+}
+
+
+/* 第一步 */
+.ai_one_step{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.ai_img{
+    display: inline-block;
+    width: 171px;
+    height: 206px;
+    background: url(../../images/meishimeitu/artificial_intelligence/logo1.png) no-repeat;
+    margin-top: 130px;
+}
+
+.ai_one_tip{
+    display: inline-block;
+    width: 290px;
+    height: 79px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 20px;
+    color: #1c1d25;
+    background: url(../../images/meishimeitu/artificial_intelligence/dialogueone.png) no-repeat;
+    position: absolute;
+    top: 50px;
+}
+
+
+.brand_box {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.brand_box>label{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: left;
+    margin-bottom: 86px;
+}
+
+.hint_name{
+    font-size: 35px;
+    color: #fefefe;
+    margin-right: 17px;
+    text-indent: 20px;
+    display: inline-block;
+}
+
+.brand_box>label>input {
+    width: 300px;
+    border: 0px;
+    border-bottom: 2px solid #235aa6;
+    background: transparent;
+    vertical-align: text-bottom;
+}
+
+.pp_name,.pp_tip{
+    position: absolute;
+    display: inline-block;
+    font-size: 14px;
+    color: #fefefe;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    bottom: -30px;
+}
+
+.pp_name{
+    width: 150px;
+    right: 5px;
+}
+
+.pp_tip{
+    width: 160px;
+    right: 15px;
+}
+
+a.ai_one_next {
+    display: block;
+    width: 160px;
+    font-size: 16px;
+    border: 1px solid #fff;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 300px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 0 solid;
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: inset 0 0 10px rgba(202, 202, 202, 0);
+    margin-bottom: 100px;
+}
+
+
+.ai_one_next:hover {
+  border: 1px solid;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+  box-shadow: inset 0 0 15px rgba(202, 202, 202, .5), 0 0 20px rgba(202, 202, 202, .2);
+}
+
+
+
+/* 智能工具第二步 行业选择*/
+.ai_two_step{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.ai_two_tip{
+    display: inline-block;
+    width: 290px;
+    height: 79px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 20px;
+    color: #1c1d25;
+    background: url(../../images/meishimeitu/artificial_intelligence/dialoguetwo.png) no-repeat;
+    position: absolute;
+    top: 50px;
+}
+
+.industry_box{
+    width: 801px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+
+
+.industry_box>li{
+    width: 180px;
+    height: 180px;
+    border: 1px solid #cacaca;
+    float: left;
+    margin-right: 27px;
+    margin-bottom: 20px;
+}
+
+
+.industry_box>li:nth-child(4n+4){
+    margin-right: 0px;
+}
+
+.industry_box>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    transform: translateZ(0);
+    border: none;
+}
+
+.border_a{
+    border-color: #e2823a;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(226, 130, 58, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.border_a:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(226, 130, 58, .5), 0 0 20px rgba(226, 130, 58, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #e2823a;
+}
+
+
+.industry_box>li>a>span{
+    display: inline-block;
+}
+
+.industry_box>li>a>input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.industry_box>li>a>img {
+    margin-top: 35px;
+}
+
+.industry_word{
+    font-size: 16px;
+    color: #cacaca;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+/* 智能工具第三步 模板选择*/
+.artificial_intelligence_box{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: url(../../images/meishimeitu/artificial_intelligence/artificial_intelligence_bg1.jpg) no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+
+.ai_three_step{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.logo_box{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.logo_box>li{
+    float: left;
+    width: 260px;
+    height: 160px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    position: relative;
+}
+
+
+.logo_box>li:nth-child(4n+4){
+    margin-right: 0px;
+}
+
+.logo_box>li>img {
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.check{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+.check_bg,.check_bg_c{
+    background: url(../../images/meishimeitu/artificial_intelligence/check.png) no-repeat;
+}
+
+p.mukuai_num {
+    font-size: 16px;
+    color: #fff4eb;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+p.btn_a_box {
+    text-align: center;
+    position: relative;
+}
+
+.btn_a_p {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    margin-top: 40px;
+}
+
+.btn_a_p>a {
+    display: block;
+    width: 160px;
+    font-size: 16px;
+    border: 1px solid #fff;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    color: #fff;
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 0 solid;
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: inset 0 0 15px rgba(202, 202, 202, 0);
+}
+
+input.co_next_step {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    border: 1px solid #fff;
+    background-color: #1c1d25;
+    margin-bottom: 25px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 0 solid;
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: inset 0 0 15px rgba(202, 202, 202, 0);
+}
+
+.next_step,.next_step:hover,.next_step:focus{
+    color: #595959 !important;
+    border-color: #595959;
+    margin-left: 30px !important;
+}
+a.input_a {
+    margin-left: 30px;
+}
+
+.mu_next {
+    color: #fff4eb !important;
+    margin-left: 30px !important;
+}
+
+.mu_next:hover,.mu_next:focus{
+    color: #fff !important;
+}
+
+.border_btn:hover {
+  border: 1px solid;
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+  box-shadow: inset 0 0 10px rgba(202, 202, 202, .5), 0 0 15px rgba(202, 202, 202, .2);
+}
+
+
+.logo_box>li>input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    display: none;
+}
+
+
+/* 颜色选择 */
+.ai_color_sele{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.color_sele_wrap{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.color_sele_wrap>li{
+    float: left;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 160px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 108px;
+    overflow: hidden;
+}
+
+.color_sele_wrap>li>img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.color_sele_wrap>li>input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    display: none;
+}
+
+.color_sele_wrap>li:nth-child(4n+4){
+    margin-right: 0px;
+}
+
+.check_color{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+.colorImg{
+    opacity: 1;
+}
+
+.colorImg_hovr {
+    opacity: 0;
+}
+
+.img_shadow{
+    border:2px solid rgb(255, 150, 50);
+    box-shadow: 0px 0px 20px 0 rgba(247, 231, 89, 0.5);
+}
+
+.sele_border{
+    border: 2px solid #e2823a;
+}
+
+.float_word {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    left: 60px;
+    bottom: -30px;
+}
+
+/* logo生成 */
+.make_logo_wrap{
+    width: 100%;
+    height: 2600px;
+    margin: 0 auto;
+    background: url(../../images/meishimeitu/artificial_intelligence/make_logo.png) no-repeat;
+    text-align: center;
+    background-size: cover;
+    height: 2800px;
+}
+
+.preview_logo {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+p.preview_title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #cdcdcd;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 100px;
+}
+
+.logo_container{
+    width:1200px;
+    height:auto;
+    margin:10px auto;
+    position:relative;
+    overflow:hidden;
+    height: 350px;
+}
+.btnLeft{
+    width:60px;
+    height:60px;
+    position:absolute;
+    left:0px;
+    top: 105px;
+    z-index:3;
+    background:url(../../images/meishimeitu/artificial_intelligence/left_logo.png) no-repeat;
+    cursor:pointer;
+    z-index:6;
+}
+.btnRight{
+    width:60px;
+    height:60px;
+    position:absolute;
+    right:0px;
+    top: 105px;
+    z-index:3;
+    background:url(../../images/meishimeitu/artificial_intelligence/right_logo.png) no-repeat;
+    cursor:pointer;
+    z-index:6;
+}
+.logo_container ul{
+    width: 1000px;
+    height: 310px;
+    margin: 0 auto;
+    position:relative;
+}
+.logo_container ul li{
+    position:absolute;
+    width:0px;
+    height:0px;
+    left:595px;
+    top:135px;
+    background-color: #e9e9e9;
+    overflow:hidden;
+}
+
+.logo_container ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.logo_container ul li a img{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.brand_wrap{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.brand_wrap>a{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff4eb;
+    width: 170px;
+    height: 60px;
+    line-height: 55px;
+    background: url(../../images/meishimeitu/artificial_intelligence/pp.png) no-repeat;
+}
+
+.scenario_application_wrap{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.scenario_application_wrap>div{
+    float: left;
+    position: relative;
+}
+
+.logo_make_one,.logo_make_two,.logo_make_four,.logo_make_five{
+    width: 600px;
+    height: 393px;
+
+}
+
+.logo_make_three{
+    width: 1200px;
+    height: 750px;
+    background: url(../../images/meishimeitu/artificial_intelligence/lar_logo_3.png) no-repeat;
+}
+
+.logo_make_one{
+    background: url(../../images/meishimeitu/artificial_intelligence/lar_logo_1.png) no-repeat;
+}
+
+.logo_make_two{
+    background: url(../../images/meishimeitu/artificial_intelligence/lar_logo_2.png) no-repeat;
+}
+
+.logo_make_four{
+    background: url(../../images/meishimeitu/artificial_intelligence/lar_logo_4.png) no-repeat;
+}
+
+.logo_make_five{
+    background: url(../../images/meishimeitu/artificial_intelligence/lar_logo_5.png) no-repeat;
+}
+
+
+.lo_one_seat,.lo_onet_seat,.lo_two_seat,.lo_three_seat,.lo_four_seat,.lo_five_seat{
+    position: absolute;
+}
+
+.lo_one_seat{
+    width: 200px;
+    height: 175px;
+    top: 150px;
+    left: 0px;
+}
+
+.lo_onet_seat{
+    width: 270px;
+    height: 330px;
+    top: 43px;
+    left: 215px;
+}
+
+.lo_two_seat{
+    width: 290px;
+    height: 190px;
+    top: 70px;
+    left: 190px;
+}
+
+.lo_three_seat{
+    width: 396px;
+    height: 228px;
+    top: 190px;
+    left: 393px;
+}
+
+.lo_four_seat{
+    width: 205px;
+    height: 272px;
+    top: 40px;
+    left: 192px;
+}
+
+.lo_five_seat{
+    width: 145px;
+    height: 120px;
+    top: 130px;
+    right: 270px;
+}
+
+.scenario_application_wrap>div>div>img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scenario_application_wrap>div>div>div>svg{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.img_case>img{
+
+}
+
+
+/* 测试 */
+.img_box_left {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+img{
+    vertical-align: middle;
+}
+
+.fl{
+    float: left;
+}
+
+
+.left ,.right{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.left>div{
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.word_wrap>div{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+div.title {
+    font-size: 100%;
+    font-weight: bold;
+    line-height: normal;
+    text-align-last: justify;
+}
+
+div.tips {
+    font-size: 50%;
+}
+
+.logo_clone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.right>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.collect_span{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    width: 28px;
+    height: 24px;
+    z-index: 2;
+}
+
+.collect{
+    background: url(../../images/meishimeitu/result/collect.png) no-repeat;
+}
+
+.collected{
+    background: url(../../images/meishimeitu/result/collected.png) no-repeat;
+}
+
+
+/* 轮播 */
+
+.swiper-container {
+    width: 1000px;
+    height: 100%;
+    margin: 20px auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.append-buttons a {
+    display: inline-block;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+.swiper-slide {
+    width: 424px !important;
+    height: 256px !important;
+    margin-top: 45px;
+}
+
+
+.swiper-slide-active {
+    width: 504px !important;
+    height: 302px !important;
+    margin-top: 0px !important;
+}
+
+.sw_a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden !important;
+}
+
+.div_svg,.svg{
+    width: 100%;
+    height: 100%;
+}
+
+.svg>svg{
+    width: 100%;
+    height: 100%;
+}
+
+.sw_a>img{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 0;
+}
+
+.shui {
+    overflow: hidden;
+}
+
+/* 水波纹 */
+.waves{
+    position:relative;
+    cursor:pointer;
+    display:inline-block;
+    overflow:hidden;
+    text-align: center;
+    -webkit-tap-highlight-color:transparent;
+    z-index:1;
+}
+.waves .waves-animation{
+    position:absolute;
+    border-radius:50%;
+    width:25px;
+    height:25px;
+    opacity:0;
+    background:rgba(255,255,255,0.3);
+    transition:all 0.7s ease-out;
+    transition-property:transform, opacity, -webkit-transform;
+    -webkit-transform:scale(0);
+    transform:scale(0);
+    pointer-events:none;
+}
+
+/* 缩放 */
+
+.add_transform{
+   -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+       -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+           transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out; /* Firefox 4 */
+    -webkit-transition: all 0.5s ease-in-out; /* Safari 和 Chrome */
+    -o-transition: all 0.5s ease-in-out; /* Opera */
+}
+
+

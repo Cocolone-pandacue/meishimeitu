@@ -1,0 +1,167 @@
+
+body .demo-class .layui-layer-content
+
+{
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    height: 20px;
+    line-height: 242px;
+    font-weight: bold;
+}
+
+body .demo-class .layui-layer-btn
+
+{
+    border-top:1px solid #E9E7E7;
+}
+
+body .demo-class .layui-layer-btn a
+
+{
+    width:100px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius:15px;
+    color:#333333;
+    background:#FFFFFF;
+    border: 1px solid #E6E6E6;
+    outline: none;
+    transition: all 1s;
+    -webkit-transition: all 1s; /* Safari */
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    margin-left: 10px;
+}
+
+body .demo-class .layui-layer-btn a>:hover
+
+{
+    color:rgba(255,255,255,1);
+    background:rgba(31,140,190,1);
+}
+
+/* 已上传列表样式 */
+
+body .checkUploaded_class .layui-layer-content
+
+{
+    color: #333333;
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+/* 已上传列表样式结束 */
+
+
+body .my_shop_tip .layui-layer-content
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* 下载工具弹框样式 */
+body .my_download .layui-layer-content
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    font-size: 14px;
+}
+/* 下载工具弹框样式 结束 */
+
+
+/* 抽奖系统弹框样式 */
+/* 积分 */
+body .integral_class
+
+{
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+body .integral_class .layui-layer-content
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:646px;
+    height:616px;
+    background:url(../images/integral_bkg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+body .integral_class .layui-layer-setwin .layui-layer-ico
+
+{
+    background:url(../images/icon_sss.png);
+}
+
+body .integral_class .layui-layer-setwin .layui-layer-close2
+
+{
+    position: absolute;
+    right: -14px;
+    top: -14px;
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+    background-position: -149px -31px;
+}
+
+body .integral_class .layui-layer-setwin .layui-layer-close2:hover 
+
+{
+    background-position: -180px -31px;
+}
+
+/* 实物 */
+body .entity_class
+
+{
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+body .entity_class .layui-layer-content
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:646px;
+    height:472px;
+    background:url(../images/integral_bkg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+body .entity_class .layui-layer-setwin .layui-layer-close2
+
+{
+    position: absolute;
+    right: -14px;
+    top: -18px;
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+    background-position: -149px -31px;
+}
+
+body .entity_class .layui-layer-setwin .layui-layer-close2:hover 
+
+{
+    background-position: -180px -31px;
+}

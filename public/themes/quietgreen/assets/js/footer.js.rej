@@ -1,0 +1,9 @@
+diff a/public/themes/quietgreen/assets/js/footer.js b/public/themes/quietgreen/assets/js/footer.js	(rejected hunks)
+@@ -5,6 +5,5 @@
+ * @Last Modified time: 2018-12-06 16:21:29
+ */
+ 
+-'use strict';
+\ No newline at end of file
+ 
+ $('.go_top').click(function(){

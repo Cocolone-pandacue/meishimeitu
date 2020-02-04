@@ -1,0 +1,365 @@
+.customer
+
+{
+    position:fixed;
+    right: 0px;
+    top: 35%;
+    width: 56px;
+    height: 260px;
+    background: #fff;
+    border:1px solid rgba(202,202,202,1);
+    z-index: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+
+
+.customer>div
+
+{
+    height: 64px;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: inline-block;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+
+.conect
+
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.flex_column
+
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border_bottom
+
+{
+    border-bottom: 1px solid rgba(202,202,202,1);
+}
+
+.position
+
+{
+    position: relative;
+}
+
+.customer>div>img.commom_imgstyle
+
+{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-bottom: 4px;
+}
+
+.customer>div.customer_phone
+
+{
+    position: absolute;
+    width: 270px;
+    height: 160px;
+    top: 0px;
+    left: -276px;
+    margin: 0px;
+    padding: 20px 30px 20px 20px;
+    text-align: left;
+}
+
+.customer>div.customer_phone>img.background_160
+
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0px;
+    z-index: -1;
+}
+
+.customer_phone>div>:nth-child(1)
+
+{
+    font-size:12px;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+
+.customer_phone .qq_button
+
+{
+    float: right;
+    width: 80px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.space_40
+
+{
+    width: 100%;
+    height: 1px;
+    background:rgba(202,202,202,1);
+    margin:19px 0px;
+}
+
+.flex
+
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.flex>img
+
+{
+    width: 16px;
+    height: 17px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.customer>div.customer_wechat
+
+{
+    position: absolute;
+    width: 270px;
+    height: 160px;
+    top: 64px;
+    left: -276px;
+    margin: 0px;
+    padding: 20px 20px 0px 20px;
+    text-align: left;
+}
+
+.customer>div.customer_wechat>img.background_160
+
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0px;
+    z-index: -1;
+}
+
+.qr_code
+
+{
+    width: 104px;
+    height: 104px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.customer_wechat>div
+
+{
+    float:right;
+}
+
+.customer_wechat>div>p:nth-child(1)
+
+{
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+}
+
+.customer_wechat>div>p
+
+{
+    margin-bottom: 10px;
+}
+
+.customer_wechat>p
+
+{
+    margin-top: 8px;
+}
+
+.customer>div.customer_rights
+
+{
+    position: absolute;
+    width: 270px;
+    height: 401px;
+    top: 127px;
+    left: -276px;
+    margin: 0px;
+    padding: 20px 29px 0px 20px;
+    text-align: left;
+}
+
+.background_401
+
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0px;
+    z-index: -1;
+}
+
+#suggest
+
+{
+    width: 220px;
+    height: 70px;
+    padding: 10px 13px 8px 10px;
+}
+
+#phone
+
+{
+    width: 160px;
+    height: 26px;
+    text-indent: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#home_btn
+
+{
+    width:50px;
+    height:26px;
+    background:rgba(236,40,40,1);
+    color: #fff;
+    font-weight:bold;
+    text-decoration: none;
+    border: 0px;
+    margin-top: 3px;
+}
+
+.customer_rights .rights
+
+{
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+
+.charge_qr_code
+
+{
+    display: block;
+    width: 104px;
+    height: 104px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.director_aftersale
+
+{
+    display: block;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.customer_rights>p
+
+{
+    margin-bottom: 7px;
+}
+
+.customer>div.customer_cooperation
+
+{
+    position: absolute;
+    width: 212px;
+    height: 198px;
+    top: 193px;
+    left: -218px;
+    margin: 0px;
+    padding: 18px 20px 0px 20px;
+    text-align: left;
+}
+
+.background_198
+
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0px;
+    z-index: -1;
+}
+
+.adver_qr_code
+
+{
+    display: block;
+    width: 104px;
+    height: 104px;
+    object-fit: contain;
+}
+
+.customer_cooperation>p
+
+{
+    margin-bottom: 10px;
+}
+
+.adver_cooperation
+
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hide_btn
+
+{
+    display: none;
+}
+
+.ssss
+
+{
+    z-index: 10;
+}
+
+.hide
+
+{
+    z-index: -1;
+}
+
+.flex_column span
+
+{
+    line-height: 85px;
+}

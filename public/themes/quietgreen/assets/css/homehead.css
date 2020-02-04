@@ -1,0 +1,19 @@
+.zk_div {
+    width: 320px;
+    height: 85px;
+    line-height: 83px;
+    border: 1px solid #1f8cbd;
+    text-align: center;
+    font-size: 14px;
+    color: #616d71;
+    background: #fff;
+}
+
+.zk_div>span {
+    position: absolute;
+    right: 7px;
+    top: -30px;
+    color: #1197ec;
+    cursor: pointer;
+}
+

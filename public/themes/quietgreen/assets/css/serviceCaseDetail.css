@@ -1,0 +1,520 @@
+.top
+
+{
+	width: 100%;
+	height:130px;
+	background:#fff;
+	border-bottom: 2px solid rgba(238,238,238,1);
+}
+
+.top_mid
+
+{
+	width: 1200px;
+	height:100%;
+	margin:0 auto;
+	margin-top: 100px;
+}
+
+.left
+
+{
+	float: left;
+	width: 600px;
+	height:100%;
+	border-right: 1px solid rgba(238,238,238,1);
+}
+
+.left:before
+
+{
+	content:"";
+	display: table; 
+}
+
+.headline
+
+{
+	font-size:24px;
+	font-family:MicrosoftYaHei;
+	font-weight:bold;
+	color:rgba(51,51,51,1);
+	margin-top:18px;
+	margin-bottom: 22px;
+}
+
+.created_at
+
+{
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(153,153,153,1);
+}
+
+.flexbuju
+
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.form
+
+{
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(153,153,153,1);
+}
+
+.count
+
+{
+	width: 120px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.count>span
+
+{
+	width: 30px;
+	border-right: 1px solid rgba(238,238,238,1);
+}
+
+.count>span:nth-child(3)
+
+{
+	border: 0px;
+}
+
+.right
+
+{
+	float: right;
+	width: 600px;
+	padding-top:23px;
+	padding-left: 49px;
+}
+
+.portrait
+
+{
+	width:85px;
+	height:85px;
+	border-radius: 50%;
+}
+
+.float_left_20
+
+{
+	float: left;
+	margin-left: 20px;
+}
+
+.address:after
+
+{
+	content:"";
+	display: inline-block;
+	width: 1px;
+	height:10px;
+	background:#999999;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.usename
+
+{
+	font-size:18px;
+	font-family:MicrosoftYaHei;
+	font-weight:bold;
+	color:rgba(51,51,51,1);
+}
+
+.type
+
+{
+    color: #999999;
+}
+
+.address
+
+{
+    color: #999999;
+}
+
+.focus
+
+{
+	display: inline-block;
+	width:80px;
+	height:24px;
+	background:rgba(31,140,190,1);
+	border-radius:5px;
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	text-align: center;
+	line-height:24px;
+}
+
+.focus
+
+{
+	display: inline-block;
+	width:80px;
+	height:24px;
+	background:rgba(31,140,190,1);
+	border-radius:5px;
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	text-align: center;
+	line-height:24px;
+}
+
+.space_20
+
+{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+.im
+
+{
+	display: inline-block;
+	width:80px;
+	height:24px;
+	background:rgba(255,255,255,1);
+	border:1px solid rgba(230,230,230,1);
+	border-radius:5px;
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	text-align: center;
+	line-height:24px;
+}
+
+.margin_12
+
+{
+	margin-top: 12px;
+}
+
+.photo_box
+
+{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+
+.photo_box:before
+
+{
+	content: "";
+	display: table;
+}
+
+.photo_littlebox
+
+{
+	width: 1200px;
+	margin:0 auto;
+	margin-top: 100px;
+}
+
+.photo_littlebox>img
+
+{
+	width: 100%;
+	object-fit: contain;
+}
+
+.database
+
+{
+	width: 1200px;
+	height: 135px;
+	display: flex;
+	align-items: center;
+	margin:0 auto;
+	justify-content: space-between;
+}
+
+.design_box
+
+{
+	display: inline-block;
+	width:80px;
+	height:30px;
+	background:rgba(255,255,255,1);
+	border:1px solid rgba(202,202,202,1);
+	border-radius:5px;
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	text-align: center;
+	line-height: 30px;
+}
+
+.tag
+
+{
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(153,153,153,1);
+}
+
+.collect
+
+{
+	width:100px;
+	height:40px;
+	background:rgba(31,140,190,1);
+	border:1px solid rgba(202,202,202,1);
+	border-radius:5px;
+	text-align: center;
+	line-height: 40px;
+	font-size:16px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:#fff;
+	cursor: pointer;
+}
+
+.space_10
+
+{
+	float: left;
+	width:10px;
+	height:80px;
+}
+
+.shou_yes
+
+{
+	background:white;
+	color: #333333;
+}
+
+.patient>a
+
+{
+	color: rgba(255,255,255,1) !important;
+}
+
+.cor
+
+{
+	color: rgba(31,140,190,1) !important;
+}
+
+/* 评论与回复 */
+.paragraph_four
+
+{
+	width: 100%;
+	height:auto;
+	background: #fff;
+}
+
+.comment_bigbox
+
+{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+	padding: 50px 30px 20px 30px;
+	/* margin-top: 20px; */
+}
+
+input.comment_input
+
+{
+	width: 1140px;
+	height: 50px;
+	border:1px solid rgba(230,230,230,1);
+	text-indent: 10px; 
+}
+
+.comment_btn
+
+{
+	display: inline-block;
+	width:100px;
+	height:30px;
+	background:rgba(31,140,190,1);
+	border-radius:5px;
+	font-size:16px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	text-align: center;
+	line-height: 30px;
+	outline: none;
+	border: 0px;
+	margin-left: 1040px;
+	margin-top: 10px;
+}
+
+.comment
+
+{
+	width: 100%;
+	height: auto;
+}
+
+.comment_count
+
+{
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	border-bottom: 1px solid rgba(230,230,230,1);
+}
+
+.comment_box
+
+{
+	width: 100%;
+	min-height: 200px;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid rgba(230,230,230,1);
+}
+
+.user_photo
+
+{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+}
+
+.inline_block
+
+{
+	display: inline-block;
+}
+
+.float_right
+
+{
+	float: right;
+}
+
+.float_left
+
+{
+	float: left;
+}
+
+.width_1064
+
+{
+	width: 1064px;
+}
+
+.user_name
+
+{
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:bold;
+	color:rgba(51,51,51,1);
+}
+
+.create_time
+
+{
+	display: inline-block;
+	margin-left: 20px;
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(136,136,136,1);
+}
+
+.comment_content
+
+{
+	font-size:14px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(136,136,136,1);
+}
+
+.warning
+
+{
+	width: 22px;
+	height: 20px;
+	object-fit: cover;
+	margin-right: 3px;
+}
+
+.dialog
+
+{
+	width: 22px;
+	height: 20px;
+	object-fit: cover;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.like
+
+{
+	width: 15px;
+	height: 17px;
+	object-fit: cover;
+}
+
+.margin_910
+
+{
+	margin-left: 910px;
+}
+
+.margin_1048
+
+{
+	margin-left: 1048px;
+}
+
+.hide
+
+{
+	display: none;
+}
+
+.padding_bottom_20
+
+{
+	padding-bottom: 20px;
+}
+
+.garbage
+
+{
+	width: 15px;
+	height: 20px;
+	object-fit: cover;
+}
+/* 评论与回复 */

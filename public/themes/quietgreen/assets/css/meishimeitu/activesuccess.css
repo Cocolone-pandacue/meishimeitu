@@ -1,0 +1,811 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7f7;
+    font-family: "微软雅黑", "SimSun", "宋体", "Arial Narrow";
+}
+ul {
+    list-style: none;
+    margin: 0;
+}
+.cor-green {
+    color: #1197ec;
+}
+.cor-gray52 {
+    color: #525252;
+}
+.cor-gray80 {
+    color: #808080;
+}
+.cor-gray4c {
+    color: #4c4c4c;
+}
+.text-size12 {
+    font-size: 12px;
+}
+.text-size14 {
+    font-size: 14px;
+}
+.text-size16 {
+    font-size: 16px;
+}
+.text-size20 {
+    font-size: 20px;
+}
+.text-size22 {
+    font-size: 22px;
+}
+.bg-green {
+    background-color: #0abea2;
+}
+.bor-radius2 {
+    border-radius: 2px!important;
+}
+.btn-green {
+    display: block;
+    text-align: center;
+    height: 39px;
+    line-height: 39px;
+    color: #fff;
+    background-color: #1197ec;
+    border: none;
+    width: 100%;
+    box-shadow: 0 0 6px 3px #e1f7f4;
+}
+
+p.login_protocol {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+p.login_protocol>a{
+    color: #1197ec;
+
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.hide{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.sendemail-bg>p:nth-child(1){
+    text-align: center;
+    background: #f5f7f7;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 61px;
+    height: 62px;
+}
+
+
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+    height:0;
+}
+
+.forget_box{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.forget_head {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.forget_head>div{
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+
+.forget_head>div>a{
+    display: inline-block;
+    width: 8%;
+    text-align: right;
+    color: #273438;
+    line-height: 50px;
+}
+
+.forget_head>div>a>span{
+    display: inline-block;
+    color: #1197ec;
+}
+
+.triangle_right{
+    width: 50px;
+    height: 36px;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-bottom: none;
+    transform: rotate(45deg);
+}
+
+.forget_wrap{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.forget_wrap>ul{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.forget_wrap>ul>li{
+    margin: 10px 0;
+    position: relative;
+}
+
+.forget_wrap>ul>li>p {
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.forget_wrap>ul>li>i{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
+.forget_wrap>ul>li>input{
+    text-indent: 15px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #16161e;
+    border: 0px;
+    border-bottom: 2px solid #235aa6;
+    text-indent: 20px;
+    font-size: 12px;
+}
+
+.forget_wrap>ul>li>input:hover{
+    border-bottom: 2px solid #235aa6;
+}
+
+.agreement>p {
+    font-size: 12px !important;
+    color: #fff;
+}
+
+.agreement>p>input {
+    vertical-align: text-bottom;
+    margin-right: 10px;
+}
+
+.achieve>a {
+    display: block;
+    width: 100px;
+    position: absolute;
+    height: 35px;
+    line-height: 35px;
+    right: -5px;
+    text-align: center;
+}
+
+.resetting {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    background: url(../../images/sign/loginbth.png) no-repeat center 0;
+}
+
+.resetting:hover{
+
+}
+
+.sendemail-bg>p:nth-child(3) {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #273438;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.sendemail-bg>p:nth-child(4) {
+    text-align: center;
+    font-size: 14px;
+    color: #1197ec;
+    height: 30px;
+    line-height: 30px;
+}
+
+.sign-logo {
+    width:199px;
+    height: 72px;
+    margin: 90px auto 0;
+}
+.sign-logo img {
+    width:158px;
+    height: 72px;
+    margin-left: 20.5px;
+}
+.sign-main {
+    width: 301px;
+    border-radius: 4px;
+    background-color: #16161e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sign-main-head {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 61px;
+    height: 62px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+p.need_num {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+a.register {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.sign-main-icon {
+    background-color: #f5faf9;
+    color: #bccfcc;
+    cursor: pointer;
+}
+.sign-main-content .bor-radius2{
+    border-radius: 2px!important;
+}
+.sign-three-wrap {
+    height: 0;
+    overflow: hidden;
+}
+.sign-checklabel {
+    margin-bottom: 10px!important;
+}
+.sign-checklabel .ace:checked + .sign-check:before {
+    background: url("../../images/sign/checked-bg.png") no-repeat center #0abea2;
+    border-color: #0abea2;
+}
+.sign-check {
+    display: inline-block;
+    width: 162%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sign-main-con{
+    text-align: center;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.sign-check>a{
+    color: #1197ce;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.sign-check:before {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #c8c8c8;
+    top:2px;
+    left: 0;
+    border-radius: 1px;
+}
+.sign-three {
+    padding-top: 20px;
+    height: 67px;
+}
+.sign-three a{
+    padding-top: 28px;
+    display: inline-block;
+}
+.sign-three a:hover{
+    text-decoration: none;
+}
+.sign-qq {
+    background: url("../../images/sign/sign-qq.png") no-repeat center 0;
+}
+.sign-wx {
+    background: url("../../images/sign/sign-wx.png") no-repeat center 0;
+}
+.sign-wb {
+    background: url("../../images/sign/sign-wb.png") no-repeat center 0;
+}
+.login-form .inputxt{
+    background: #16161e;
+    border: 0px;
+    border-bottom: 2px solid #235aa6;
+    font-size: 12px;
+    height: 39px;
+    padding-left: 10px!important;
+    text-indent: 15px;
+    color: #fff;
+}
+
+.login-form .inputxt:hover{
+    border-bottom: 2px solid #235aa6
+}
+
+.login-form label{
+    margin-bottom: 20px;
+}
+
+
+.hover-word{
+    color: #57b1ff;
+}
+
+.hover-word:hover{
+    color: #8ac9ff;
+}
+
+.sign-main-userico {
+    background: url(../../images/sign/sign_user.png) no-repeat center 0;
+    width: 13px;
+    height: 15px;
+    position: absolute;
+    color: #bbc7ce;
+    left: 5px;
+    top: 12px;
+}
+.sign-main-passico {
+    background: url(../../images/sign/sign_ps.png) no-repeat center 0;
+    width: 13px;
+    height: 18px;
+    position: absolute;
+    left: 5px;
+    top: 12px;
+    color: #bbc7ce;
+}
+.paw_see{
+    width: 25px;
+    height: 10px;
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    color: #bbc7ce;
+}
+
+.see_ps{
+    background: url(../../images/sign/sign-nosee.png) no-repeat center 0;
+}
+
+.pw{
+    width: 25px;
+    height: 10px;
+    top: 18px !important;
+    left: 240px !important;
+    color: #bbc7ce;
+}
+
+.see{
+    background: url(../../images/sign/sign-see.png) no-repeat center 0;
+}
+
+.register-checkbox input {
+    vertical-align: -3px;
+}
+.register-main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 310px;
+}
+
+.forget_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 310px;
+}
+
+.register-main-bg {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 600px;
+    right: 0;
+    height: 100%;
+    background-color: #16161e;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.email_title>a,.phone_title>a{
+    float: right;
+    color: #fff;
+    font-size: 12px;
+}
+
+.register_btn{
+    display: block;
+    text-align: center;
+    height: 39px;
+    line-height: 39px;
+    color: #fff;
+    /* background: url(../../images/sign/loginbth.png) no-repeat center 0;
+         */
+    background-color: #f06449;
+    background: linear-gradient(270deg,#f06449,#ef3636);
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.login_btn{
+    display: block;
+    text-align: center;
+    height: 39px;
+    line-height: 39px;
+    color: #fff;
+    background-color: #f06449;
+    background: linear-gradient(270deg,#f06449,#ef3636);
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+}
+
+.login_btn>span,.register_btn>span{
+    display: inline-block;
+    z-index: 3;
+    width: 100%;
+}
+
+.button-mask ,.button-mask-r{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -301px;
+    background-color: #1b2e63;
+    background: linear-gradient(270deg,#235aa6,#101b3b);
+}
+
+.button-mask-r{
+    left: -350px;
+}
+
+.login_btn_box{
+    position: relative;
+    width: 100%;
+    height: 39px;
+}
+
+.yan_in{
+    width: 100%;
+}
+
+.has_lo{
+    font-size: 12px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.yanzheng {
+    position: absolute;
+    background: transparent;
+    border: 0px;
+    color: #23527c;
+    outline: none;
+    right: 0;
+    top: 10px;
+}
+
+.sign-main-content {
+    border: 0px;
+    padding: 16px 0;
+}
+
+.register-main-head {
+    line-height: 58px;
+}
+
+.register-main-head li a{
+    color: #767a79;
+}
+.register-main-head li a:hover{
+    text-decoration: none;
+}
+.register-main-head .active {
+    border-bottom: 3px solid #0abea2;
+}
+.register-inputcode {
+    width:100%;
+    max-width: 180px;
+    margin-right: 11px;
+}
+.register-main .register-code,.register-code {
+    width:100%;
+    max-width: 100px;
+    border-radius: 2px;
+    background-color: #effbf9!important;
+    color: #0abea2!important;
+    height: 39px;
+    vertical-align: -1px;
+    border: 1px solid #a5e5db;
+}
+.register-codeimg {
+    width:100px;
+    height: 39px;
+    margin-left: 11px;
+}
+
+
+.codeImg img {
+    width:80px;
+    height: 34px;
+}
+
+html{
+    background-color: #222222;
+}
+
+body{
+    padding-bottom: 0px !important;
+    min-width: 1080px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+}
+
+.login_wrap{
+
+}
+.login_icon{
+    width: calc(100% - 600px);
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+
+.login_icon>img{
+    /* width: 100%;
+    height: 100%; */
+    width: calc(100% + 80px);
+    height: calc(100% + 80px);
+    object-fit: cover;
+    transform: translateX(0px) translateY(-40px);
+}
+
+.login_head {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+span.border_span {
+    display: inline-block;
+    border-bottom: 2px solid #f25757;
+    height: 39px;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sendemail-bg {
+    width: 600px;
+    right: 0;
+    height: 100%;
+    background-color: #16161e;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.sendmail-main {
+    width: 100%;
+    max-width: 301px;
+    margin: 40px auto 0;
+    background-color: #16161e;
+}
+
+
+.find_title{
+    height: 62px;
+    line-height: 62px;
+    margin-bottom: 50px !important;
+    margin-top: 50px !important;
+}
+
+
+.find_title>p{
+    font-weight: bold;
+    color: #fff !important;
+    font-size: 25px !important;
+}
+
+.sendmail-img {
+    margin-right: 56px;
+}
+.sendmail-btn {
+    max-width: 160px;
+    display: inline-block;
+    margin-top: 46px;
+}
+.password-head {
+    margin: 0 30px;
+    border-left: 3px solid #0abea2;
+    height: 22px;
+    line-height: 21px;
+    padding-left: 17px;
+}
+.password-head a{
+    padding-right: 18px;
+    background: url("../../images/sign/password-link.png") no-repeat right center;
+    cursor: pointer;
+}
+.password-wizard {
+    margin: 0 -40px;
+}
+.password-wizard li {
+    vertical-align: middle;
+}
+.password-wizard li .step{
+    border:10px solid #fff;
+    width:auto;
+    height: 64px;
+    line-height: normal;
+}
+.password-wizard li .password-stepbor {
+    width:16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: -11px;
+}
+.password-wizard li:before {
+    border-top:1px solid #e5e5e5;
+    top:30px;
+}
+.password-wizard li.active .step {
+    border:10px solid #fff;
+
+}
+.password-wizard li.active:before {
+    border-color:#e5e5e5;
+}
+.password-wizard li.active .password-stepbor {
+    background: url("../../images/sign/sign-phone.png") no-repeat center #0abea2;
+    border-color: #0abea2;
+    width: 40px;
+    height: 40px;
+}
+.password-wizard li.reset .password-stepbor {
+    background-image: url("../../images/sign/sign-reset.png");
+}
+.password-wizard li.success .password-stepbor {
+    background-image: url("../../images/sign/sign-success.png");
+}
+.password-wizard li.validate .password-stepbor {
+    background-image: url("../../images/sign/sign-validate.png");
+}
+.wizard-steps li .title {
+    color: #4c4c4c;
+}
+.sign-inputradiu input{
+    border-radius: 2px!important;
+}
+.sign-inputradiu .control-label{
+    padding-top: 8px!important;
+}
+.sign-inputradiu .col-sm-5{
+    width: 40%;
+}
+.password-btn {
+    width: 110px;
+    height: 39px;
+    border: none;
+    color: #fff;
+    background-color: #0abea2;
+    text-align: center;
+}
+.password-main {
+    padding-top: 30px;
+}
+
+.sign-main-bg{
+    width: 600px;
+    right: 0;
+    height: 100%;
+    background-color: #16161e;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+}
+
+
+.go_re>p {
+    color: #fff;
+}
+
+.now_re{
+    margin-left: 10px;
+}
+
+.text_style
+
+{
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    text-align: center;
+}
+
+.sign-main>a
+
+{
+    float: right;
+    margin-right: 38px;
+    margin-top: 17px;
+    text-decoration-line: underline;
+}

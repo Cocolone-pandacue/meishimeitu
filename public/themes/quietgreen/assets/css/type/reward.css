@@ -1,0 +1,324 @@
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: separate;
+    text-align: center;
+    background-image: url(../../images/under_.png);
+    background-position:-15px -15px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border:15px solid transparent;
+}
+
+/* 奖品box图片 */
+.draw {
+    width: 560px;
+    height: 560px;
+    /* background-image: url(../../images/under_.png);
+    background-position:-15px -15px;
+    background-repeat: no-repeat;
+    object-fit: cover; */
+}
+/* 奖品背景图片 */
+.draw .item {
+    width: 160px;
+    height: 160px;
+    background-image: url(../../images/radius.png);    
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border-radius:20px !important;
+}
+
+
+
+/* 抽奖动画图片 */
+.draw .item.active {
+    box-shadow: inset 0 0 72px rgba(251, 110, 2, 1), 0 0 0 3px rgba(251, 111, 3, 1);
+    text-shadow: 1px 1px 2px #e2823a;
+    /* background-image: url(../../images/radius.png);
+    background-repeat: no-repeat;
+    object-fit: cover; */
+}
+
+/* display: table-cell;可单独使用 */
+.draw .img {
+    display: table-cell;          
+    width: 160px;
+    height: 61px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.draw .img img {
+    vertical-align: top;
+}
+
+.draw .gap {
+    width: 27px;
+}
+
+.draw .gap-2 {
+    height: 27px;
+}
+
+.draw .name {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* 抽奖按钮图片 */
+.draw .draw-btn {
+    display: block;
+    width:160px;
+    height: 160px;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    background-image: url(../../images/lottery_btn.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    /* border:10px solid transparent; */
+}
+
+.bgd_red
+
+{
+    background:#DB0133;
+    height:660px;
+    background-image: url(../../images/choujiangbkg.png);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position:0px -100px;
+}
+
+.bgd_green
+
+{
+    background:#611987;
+    height:320px;
+}
+
+section
+
+{
+    min-height:0px !important;
+}
+
+.the_winners
+
+{
+    overflow: hidden;
+    height: 160px;
+    line-height: 26px;
+}
+
+.the_winners ul li
+
+{
+    display:flex;
+    height:26px;
+    justify-content:space-between;
+    text-align: center;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+}
+
+.the_winners ul li>span:nth-child(2)
+
+{
+    width: 85px;
+    max-width:85px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;/** 对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical;/** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 2;/** 显示的行数 **/
+    overflow: hidden;	/** 隐藏超出的内容 **/
+}
+
+.the_winners ul li>span:nth-child(4)
+
+{
+    width:70px;
+    max-width:70px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;/** 对象作为伸缩盒子模型显示 **/
+    -webkit-box-orient: vertical;/** 设置或检索伸缩盒对象的子元素的排列方式 **/
+    -webkit-line-clamp: 2;/** 显示的行数 **/
+    overflow: hidden;	/** 隐藏超出的内容 **/
+}
+ 
+.winner_list
+
+{
+    width:560px;
+    height:230px;
+    background:#F5491B;
+    margin-top:430px;
+    padding:20px;
+}
+
+.residueDegree
+
+{
+    margin-top:60px;
+    font-size:20px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+}
+
+.winnerNameList
+
+{
+    font-size:24px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(249,234,2,1);
+    height:50px;
+    border-bottom:1px solid #AB2400;
+}
+
+.lotteryRule
+
+{
+    font-size:50px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(249,234,2,1);
+}
+
+.lotteryRuleDetail
+
+{
+    width:780px;
+    text-indent: -16px;
+　　margin-left: 16px;
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+}
+
+.space_90
+
+{
+    height:45px;
+}
+
+.count
+
+{
+    display: inline-block;
+    width: 30px;
+    height: 38px;
+    text-align: center;
+    background: black;
+    font-size: 30px;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: rgba(249,234,2,1);
+}
+
+
+
+/* 抽奖弹窗 */
+.integral .lottery_title
+
+{
+    font-size:60px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+
+.integral .lottery_content
+
+{
+    font-size:28px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    margin:15px 0;
+}
+
+.integral .next_chance
+
+{
+    font-size:28px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,247,1,1);
+    margin:15px 0;
+}
+
+.integral button
+
+{
+    width:240px;
+    height:70px;
+    background:rgba(255,247,1,1);
+    border-radius:35px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;  
+    outline: none; 
+    font-size:28px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(97,25,135,1);
+}
+
+.entity_input
+
+{
+    display:block;
+    width:400px;
+    height:80px;
+    outline: none;
+    border-radius:20px !important;
+    margin-top:15px;
+    font-size:30px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(136,136,136,1);
+}
+
+.warning_text
+
+{
+    display:none;
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,247,1,1);
+    margin:15px 0;
+}
+
+.entity_btn
+
+{
+    width:240px;
+    height:70px;
+    background:rgba(255,247,1,1);
+    border-radius:35px;
+    outline: none;
+    padding:0px;
+    border:none;
+    font-size:28px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(97,25,135,1);
+}

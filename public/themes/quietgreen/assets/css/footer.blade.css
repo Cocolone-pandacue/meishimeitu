@@ -1,0 +1,131 @@
+/*
+* @Author: Marte
+* @Date:   2018-07-06 10:05:04
+* @Last Modified by:   Marte
+* @Last Modified time: 2019-01-21 15:56:08
+*/
+p.foot_img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 60px;
+}
+
+ul.foot_list {
+    width: 550px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.foot_list>li {
+    text-align: center;
+}
+
+ul.foot_list>li>a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    padding: 0;
+}
+
+ul.foot_list>li:hover{
+    color: #fff;
+}
+
+.foot_list_weixin_location
+
+{
+    position: relative;
+}
+
+.foot_list_weixin_code
+
+{
+    position: absolute;
+    top: 50px;
+    left: -47px;
+    width: 120px;
+    height: 130px;
+    display: none;
+}
+
+.foot_list_weixin
+
+{
+    width: 30px;
+    height: 28px;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.foot_list_weibo
+
+{
+    width: 30px;
+    height: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contact_way
+
+{
+    width: 550px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 97px;
+}
+
+.contact_way>p
+
+{
+    width: 100%;
+    height: 24px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+}
+
+.contact_way>p:nth-child(1)
+
+{
+    margin-bottom: 20px;
+}
+
+.contact_way>p>img
+
+{
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.beian {
+    height: 50px;
+    line-height: 50px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+
+.beian>p {
+    height: 30px;
+    line-height: 30px;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(95,96,104,1);
+}

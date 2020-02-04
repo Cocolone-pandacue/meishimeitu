@@ -1,0 +1,29 @@
+/*
+* @Author: Marte
+* @Date:   2018-12-12 12:03:12
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-12-26 11:34:31
+*/
+
+.sign-main-bg{
+    width: 600px;
+    right: 0;
+    height: 100%;
+    background-color: #16161e;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+}
+
+
+.go_re>p {
+    color: #fff;
+}
+
+.now_re{
+    margin-left: 10px;
+}
+
+
+

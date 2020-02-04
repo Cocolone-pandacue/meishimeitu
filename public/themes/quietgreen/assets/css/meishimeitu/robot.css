@@ -1,0 +1,439 @@
+/* .oheader{
+  display: none !important;
+}
+
+footer {
+    display: none !important;
+} */
+
+.loding_box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 847px;
+  height: 347px;
+  background: url(../../images/meishimeitu/loading/loadingBox.png) no-repeat;
+}
+
+.content{
+  width: 100%;
+  height: 420px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.loading {
+/*   position: relative;
+top: 310px;
+left: 590px;
+width: 800px;
+height: 300px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 736px;
+  height: 260px;
+}
+
+.loading .bg {
+  position: absolute;
+  top: 10px;
+  background: url(../../images/meishimeitu/loading/s_bg.png) no-repeat;
+  width: 95px;
+  height: 239px;
+  -webkit-animation: show 5s linear infinite;
+  animation: show 5s linear infinite;
+  overflow: hidden;
+}
+
+.loading .word-wrap {
+  position: absolute;
+  top: 70px;
+}
+
+.word-wrap li {
+  position: absolute;
+}
+
+.word-wrap .word {
+  color: #fff;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-animation: word 1.5s ease-in-out infinite alternate;
+  -moz-animation: word 1.5s ease-in-out infinite alternate;
+  animation: word 1.5s ease-in-out infinite alternate;
+}
+
+.word-wrap .word.one {
+  left: 45px;
+}
+
+.word-wrap .word.two {
+  left: 160px;
+}
+
+.word-wrap .eye {
+  left: 310px;
+  top: -12px;
+  background: url(../../images/meishimeitu/loading/eye.png) no-repeat;
+  width: 109px;
+  height: 137px;
+}
+
+.word-wrap .eye::before {
+  content: '';
+  position: absolute;
+  width: 79px;
+  height: 79px;
+  top: 16px;
+  left: 16px;
+  animation: eye 4s linear infinite;
+}
+
+.word-wrap .word.three {
+  left: 465px;
+}
+
+.word-wrap .word.four {
+  left: 580px;
+}
+
+.loading .robot {
+  position: absolute;
+  top: 20px;
+  -webkit-box-reflect: below 0 -webkit-linear-gradient(transparent, transparent 50%, rgba(255, 255, 255, .3));
+  -webkit-animation: robot 5s linear infinite;
+  animation: robot 5s linear infinite;
+}
+
+.loading .robot .body {
+  position: relative;
+  background: url(../../images/meishimeitu/loading/body.png) no-repeat;
+  background-size: 100%;
+  width: 261px;
+  height: 240px;
+  z-index: 1000;
+}
+
+.loading .robot .hand {
+  position: absolute;
+  background: url(../../images/meishimeitu/loading/hand.png) no-repeat;
+  width: 39px;
+  height: 180px;
+  transform-origin: center center;
+
+}
+
+.loading .robot .hand.left {
+  left: 18px;
+  bottom: -29px;
+  animation: left-hand 0.5s linear infinite;
+}
+
+.loading .robot .hand.right {
+  right: 18px;
+  bottom: -29px;
+  animation: right-hand 0.5s linear infinite;
+}
+
+/* @keyframes eye {
+  0% {
+    background: url(../../images/meishimeitu/loading/eye_open.png) no-repeat;
+  }
+
+ 40% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+
+  50% {
+    background: url(../../images/meishimeitu/loading/eye_open_2.png) no-repeat;
+  }
+
+  55% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+
+  65% {
+    background: url(../../images/meishimeitu/loading/eye_open.png) no-repeat;
+  }
+
+  75% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+
+  85% {
+    background: url(../../images/meishimeitu/loading/eye_open_2.png) no-repeat;
+  }
+
+  100% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+} */
+
+@keyframes eye {
+  0% {
+    background: url(../../images/meishimeitu/loading/eye_open.png) no-repeat;
+  }
+
+  5% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+
+  10% {
+    background: url(../../images/meishimeitu/loading/eye_open_2.png) no-repeat;
+  }
+  15% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+
+  20%{
+    background: url(../../images/meishimeitu/loading/eye_open.png) no-repeat;
+  }
+
+  25% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+
+  30% {
+    background: url(../../images/meishimeitu/loading/eye_open_2.png) no-repeat;
+  }
+
+  35% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+
+  40% {
+    background: url(../../images/meishimeitu/loading/eye_open.png) no-repeat;
+  }
+
+  45% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+
+  50% {
+    background: url(../../images/meishimeitu/loading/eye_open_2.png) no-repeat;
+  }
+
+  55% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+
+  60% {
+    background: url(../../images/meishimeitu/loading/eye_open.png) no-repeat;
+  }
+
+  65% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+  70% {
+    background: url(../../images/meishimeitu/loading/eye_open_2.png) no-repeat;
+  }
+
+  75% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+
+  80% {
+    background: url(../../images/meishimeitu/loading/eye_open.png) no-repeat;
+  }
+
+  85% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+  90% {
+    background: url(../../images/meishimeitu/loading/eye_open_2.png) no-repeat;
+  }
+
+  95% {
+    background: url(../../images/meishimeitu/loading/eye_close.png) no-repeat;
+  }
+
+  100% {
+    background: url(../../images/meishimeitu/loading/eye_open.png) no-repeat;
+  }
+}
+
+@keyframes left-hand {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes right-hand {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes show {
+  from {
+    width: 95px;
+  }
+
+  to {
+    width: 730px;
+  }
+}
+
+@keyframes show {
+  from {
+    width: 95px;
+  }
+
+  to {
+    width: 730px;
+  }
+}
+
+@-webkit-keyframes robot {
+  0% {
+    left: 0;
+  }
+
+  95% {
+    left: 585px;
+  }
+
+  100% {
+    left: 585px;
+    display: none;
+  }
+}
+
+@keyframes robot {
+  0% {
+    left: 0;
+  }
+
+  95% {
+    left: 585px;
+  }
+
+  100% {
+    left: 585px;
+  }
+}
+
+@-webkit-keyframes word {
+  from {
+    text-shadow: 0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 30px #fff,
+      0 0 40px #228DFF,
+      0 0 70px #228DFF,
+      0 0 80px #228DFF,
+      0 0 100px #228DFF,
+      0 0 150px #228DFF;
+  }
+
+  to {
+    text-shadow: 0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 15px #fff,
+      0 0 20px #228DFF,
+      0 0 35px #228DFF,
+      0 0 40px #228DFF,
+      0 0 50px #228DFF,
+      0 0 75px #228DFF;
+  }
+}
+
+@-moz-keyframes word {
+  from {
+    text-shadow: 0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 30px #fff,
+      0 0 40px #228DFF,
+      0 0 70px #228DFF,
+      0 0 80px #228DFF,
+      0 0 100px #228DFF,
+      0 0 150px #228DFF;
+  }
+
+  to {
+    text-shadow: 0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 15px #fff,
+      0 0 20px #228DFF,
+      0 0 35px #228DFF,
+      0 0 40px #228DFF,
+      0 0 50px #228DFF,
+      0 0 75px #228DFF;
+  }
+}
+
+@keyframes word {
+  from {
+    text-shadow: 0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 30px #fff,
+      0 0 40px #228DFF,
+      0 0 70px #228DFF,
+      0 0 80px #228DFF,
+      0 0 100px #228DFF,
+      0 0 150px #228DFF;
+  }
+
+  to {
+    text-shadow: 0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 15px #fff,
+      0 0 20px #228DFF,
+      0 0 35px #228DFF,
+      0 0 40px #228DFF,
+      0 0 50px #228DFF,
+      0 0 75px #228DFF;
+  }
+}
+
+@keyframes wordtip{
+  0% {
+    background: url(../../images/meishimeitu/loading/word1.png) no-repeat;
+  }
+
+  25% {
+    background: url(../../images/meishimeitu/loading/word2.png) no-repeat;
+  }
+
+  50% {
+    background: url(../../images/meishimeitu/loading/word3.png) no-repeat;
+  }
+
+  75% {
+    background: url(../../images/meishimeitu/loading/word4.png) no-repeat;
+  }
+
+  100% {
+    background: url(../../images/meishimeitu/loading/word5.png) no-repeat;
+  }
+
+
+}
+
+
+.wordTip {
+/*     position: relative; */
+    width: 400px;
+    height: 50px;
+/*     top: 250px;
+left: 0; */
+    margin: 0 auto;
+    -webkit-animation: wordtip 10s ease-in-out  ;
+    -moz-animation: wordtip 10s ease-in-out  ;
+    animation: wordtip 10s ease-in-out  ;
+    animation-fill-mode: forwards;
+}

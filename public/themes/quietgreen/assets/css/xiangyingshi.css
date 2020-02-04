@@ -1,0 +1,241 @@
+/* 首页响应式设置 */
+
+html,body
+
+{
+    min-width:100%;
+}
+
+
+.banner
+
+{
+    position: relative;
+    width:100%;
+}
+
+
+#sssssss
+
+{
+    background:#15161e;
+}
+
+.navbar-right
+
+{
+    margin-right:0px;
+}
+
+@media (max-width: 576px){
+
+    /* 小屏幕时主页样式 */
+    /* 小屏幕时homehead按钮 */
+    .navbar .navbar-toggle
+    {
+        margin-top: 35px;
+    }
+    /* 小屏幕时banner图尺寸 */
+    .banner {
+        width: 100%;
+        height:60%;
+    }
+/* 小屏幕时隐藏底部footer部件 */
+    footer 
+    {
+        display: none;
+    }
+/* 小屏幕时隐藏首页侧边菜单栏 */
+    .customer
+    {
+        display: none;
+    }
+/* 小屏幕时隐藏漂浮物 */
+    .imgHover    
+    {
+        display: none;
+    }
+/* 小屏幕时homehead下拉框取消margin-top */
+    .menu_list>li 
+    {
+        margin-top: 0px;
+    }
+    /* 小屏幕时业务类型图尺寸 */
+    ul.type_service_wrap>li
+    {
+        width: 100%;
+        height: 480px;
+        margin-bottom: 150px;
+        position: relative;
+        box-shadow: 0 0 10px 5px #9d9d9d;
+    }
+    /* 小屏幕时.shade_content_left相对坐标 */
+    .shade_content_left
+    {
+        left: 20px;
+    }
+    /* 小屏幕时业务类型样式 */
+    .title
+    {
+        font-size:40px !important;
+    }
+    .shade_content_left>p
+    {
+        font-size:40px !important;
+    }
+    ul.cooperative_partner_wrap>li
+    {
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position:static;
+    }
+    img.scale_img
+    {
+        position:static;
+        margin-top:10px;
+    }
+    span.au_name
+    {
+        position:static;
+        width:auto;
+    }
+    span.occupation
+    {
+        position:static;
+        width:auto;
+        text-indent:0px;
+    }
+    .tra_div
+    {
+        display: none;
+    }
+    /* 小屏幕时显示最底部导航栏 */
+    .bottom_guide
+    {
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+        height:100px;
+        background:white;
+        font-size:14px;
+        color: #333;
+        position:fixed;
+        bottom:0px;
+        left:0px;
+        z-index:666;
+        box-shadow: 0 0 17px -3px #9d9d9d;
+    }
+    .bottom_guide>a
+    {
+        width:25%;
+        height:100%;
+        display:table;
+    }
+    .bottom_guide>a>span
+    {
+        display:table-cell;
+        text-align:center;
+        vertical-align:middle;
+    }
+    /* 小屏幕时case加70间距 */
+    .case
+    {
+        padding-bottom: 150px;
+    }
+    /* 小屏幕时主页样式 结束 */
+
+    /* 小屏幕时发布项目样式 */
+    .wrap_box
+    {
+        display:none;
+    }
+    .project_content
+    {
+        width: 100%;
+        height:auto;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .project_type
+    {
+        width: 100%;
+        height:auto;
+        
+    }
+    .project_type>li
+    {
+        width:50%;
+        margin-right:0px;
+        height:150px;
+    }
+    .project_type>li>a
+    {
+        width: 100%;
+    }
+    #logo_info>a>img
+    {
+        margin-top:15px;
+    }
+    /* 小屏幕时发布项目样式 结束 */
+
+
+}
+
+@media screen and (min-width:768px){
+    .navbar 
+    {
+        display:flex;
+    }
+    .collapse 
+    {
+        flex:1;
+    }
+  
+    /* 电脑屏幕时homehead样式 */
+    .navbar-collapse.collapse
+    {
+        /* float:right; */
+        display:block;
+    }
+
+    .menu_list
+    {
+        margin-top: 0px;
+        display:table;
+    }
+
+    .menu_list>li
+    {
+        display:table-cell;
+        text-align: left;
+        vertical-align:middle;
+        line-height:100px;
+    }
+    .menu_list>.navbar-form
+    {
+        display:table-cell;
+        text-align: right;
+    }
+
+    .case_width
+    {
+        width: 1230px;
+    }
+}
+
+
+
+.navbar-header
+
+{
+    padding-left:15px;
+}
+
+.menu_list
+
+{
+    background:#15161e;
+}
+
